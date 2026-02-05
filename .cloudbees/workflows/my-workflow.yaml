@@ -12,7 +12,7 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: go1
-          artifact-id: a8406c18-b585-4dd2-a1c2-2f98af6999a0
+          artifact-id: a07a9d5e-76f0-44c4-a30c-b8b8e99863cc
           target-environment: Prod1
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
