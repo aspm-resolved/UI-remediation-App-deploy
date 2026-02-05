@@ -12,15 +12,15 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: go1
-          artifact-id: eb6e4ce6-2b41-4163-a5b3-a8fbd08d2998
+          artifact-id: a8406c18-b585-4dd2-a1c2-2f98af6999a0
           target-environment: Prod1
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: go2
-          artifact-id: eb6e4ce6-2b41-4163-a5b3-a8fbd08d2998
+          artifact-id: a8406c18-b585-4dd2-a1c2-2f98af6999a0
           target-environment: Prod2
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: go3
-          artifact-id: eb6e4ce6-2b41-4163-a5b3-a8fbd08d2998
+          artifact-id: a8406c18-b585-4dd2-a1c2-2f98af6999a0
           target-environment: Prod3
